@@ -1,0 +1,32 @@
+{
+  "name": "demo-interview",
+  "version": "1.0.0",
+  "description": "Interview demo",
+  "author": "Crhistian David Vergara <krisskira@gmail.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [],
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.8",
+    "apollo-server": "^3.6.7",
+    "apollo-server-core": "^3.6.7",
+    "class-validator": "^0.13.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "graphql": "^15.3.0",
+    "graphql-ws": "^5.7.0",
+    "mongoose": "^6.1.6",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.3",
+    "ts-node-dev": "^1.1.8"
+  }
+}
